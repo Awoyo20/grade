@@ -12,6 +12,7 @@ function Total(){
 else {
     var total= sub1 + sub2 + sub3 + sub4 + sub5;
     document.getElementById("total").innerHTML = "Html Marks :"+sub1+"<br> css Marks: "+sub2+"<br> Bootstrap Marks: "+sub3+"<br> Javascript Marks: "+sub4+"<br> .net: "+sub5+"<br> Total Marks : "+total;
+console.log(sub1 + sub2 + sub3 + sub4 + sub5 );
 }
 }
 
